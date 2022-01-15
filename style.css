@@ -42,3 +42,18 @@ color: black;
 font-weight: 700;
 padding: 5px 10px;
 }
+.blog-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.blog-1-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.blog-1-right img{
+    width: 100%;
+}
