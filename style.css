@@ -90,15 +90,31 @@ button:active{
     top: 5px;
 }
 
-/* blog 1&2  end*/
 
+/* -- review- brandig logo or steckholdr parties -- */
+
+hr{
+    opacity: 20%;
+    height: 2px;
+}
+
+.clients-logo{
+    display: grid;
+    grid-template-columns: repeat();
+    display: flex;
+    margin-right: 20px;
+}
+
+
+
+/* blog 1&2  end*/
 
 
 /* banner gallery */
 
 .gallery .gallery-banner img{
-    width: 250px;
-    height: 200px;
+    width: 50px;
+    height: 80px;
 
 }
 
@@ -112,6 +128,8 @@ button:active{
 
 .product{
     background-color:antiquewhite;
+    padding:25px 30px 30px 35px;
+ 
 }
 
 
@@ -132,8 +150,17 @@ sub-section{
 .product-photo img{
     width: 250px;
     height: 200px;
+    object-fit: cover;
 }
 
 section.container{
     margin-bottom: 150px;
 }
+
+
+footer{
+    height: 200px;
+    background-color: black;
+    color: whitesmoke;
+}
+footer. 
