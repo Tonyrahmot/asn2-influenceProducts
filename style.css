@@ -12,7 +12,8 @@ body{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    padding:0 25px;
+    padding:0 5px;
+    
 }
 
 header{
@@ -42,31 +43,33 @@ color: black;
 font-weight: 700;
 padding: 5px 10px;
 }
-.blog-1{
+.blog-1, .blog-2{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
 }
 .blog-1-left h1{
     font-size: 2em;
 
 }
-.blog-1-left{
+.blog-1-left, .blog-2-right{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
 
-.blog-1-right img{
+.blog-1-right, .blog-2-right img{
     width: 100%;
     display: flex;
 }
 
-.blog-1-left p{
+.blog-1-left p, .blog-2-right p{
     color: black;
     margin: 20px 0;
     text-align: justify;
 }
+
 
 button{
     padding: 12px;
@@ -86,3 +89,31 @@ button:active{
     top: 5px;
 }
 
+/* blog 1&2  end*/
+
+
+
+/* banner gallery */
+
+.gallery .gallery-banner img{
+    width: 250px;
+    height: 200px;
+
+}
+
+.fa-star.filled{
+    color: #FFC014;
+}
+
+.fa-star.empty{
+    color: #aeaeae;
+}
+
+.product{
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+
+sub-section{
+    display: flex;
+}
